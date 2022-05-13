@@ -12,7 +12,7 @@ All documentation is listed here.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ EXAMPLE:
 
-``
+```
 local PermissionsModule = require(Location.Module)
 
 PermissionsModule.get(Index) -- Being there is no way to globally define a permission slip, you can save the index via your own methods and grab it using this.
@@ -66,4 +66,4 @@ Permission.new(Options) [OPTIONS]:
 	GodUserOverride = true -- Always keep this true.
 	ContainsAll = false -- Only mark this true if the user has to have all of the permissions required.
 }
-``
+```
